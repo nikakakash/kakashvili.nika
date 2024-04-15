@@ -1,0 +1,699 @@
+body {
+    margin: 0px;
+}
+
+.blackdiv {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 20px;
+    background-color: #161616;
+}
+
+.blackdiv i {
+    color: gray;
+    padding: 20px;
+}
+
+.navbar {
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    z-index: 1;
+}
+
+.stickydiv {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    column-gap: 50px;
+    background-color: whitesmoke;
+}
+
+.maindiv {
+    display: flex;
+}
+
+.EA {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    font-size: 23px;
+}
+
+.rightside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.game,
+.about,
+.morexp,
+.resources,
+.commitments {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.EA h1 {
+    color: #551A8B;
+}
+
+.EA i {
+    font-size: 20px;
+    padding: 15px;
+}
+
+.game:hover i,
+.about:hover i,
+.morexp:hover i,
+.resources:hover i,
+.commitments:hover i {
+    transform: rotate(180deg);
+    color: red;
+}
+
+.game:hover,
+.about:hover,
+.morexp:hover,
+.resources:hover,
+.commitments:hover {
+    color: red;
+}
+
+.picture {
+    width: 100%;
+    height: 600px;
+    background-image: url('https://media.contentapi.ea.com/content/dam/ea/fc/eacom-homepage-takeover/images/2023/09/eacom-fc24-launch-hero-med-xl-7x2.jpg.adapt.crop5x2.1455w.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.eapicture {
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.leftside {
+    width: 500px;
+    height: 400px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftside h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.leftside h6 {
+    color: white;
+    font-size: 20px;
+}
+
+.leftside button {
+    padding: 20px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: lightgreen;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.featuredgames {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.featuredgames h1 {
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    width: 350px;
+    height: 350px;
+
+}
+
+.firstthree,
+.secondthree {
+    display: flex;
+    gap: 20px;
+}
+
+.fc24 {
+    background-image: url('https://media.contentapi.ea.com/content/dam/gin/images/2023/07/fc24.jpeg.adapt.crop1x1.767p.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.background {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.fc24:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.nhl:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.nhl {
+    background-image: url('https://media.contentapi.ea.com/content/dam/gin/images/2023/08/nhl24-eacom-gin-asset-1x1.jpg.adapt.crop1x1.767p.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.ufc {
+    background-image: url('https://media.contentapi.ea.com/content/dam/gin/images/2023/09/ufc-5-keyart.jpg.adapt.crop1x1.767p.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.ufc:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.madden {
+    background-image: url('https://media.contentapi.ea.com/content/dam/gin/images/2023/06/madden-24-keyart.jpg.adapt.crop1x1.767p.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.madden:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.officialsite {
+    background-image: url('https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767p.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.officialsite:hover {
+    transform: scale(1.2);
+    color: red;
+
+}
+
+.apex {
+    background-image: url('https://media.contentapi.ea.com/content/dam/gin/images/2019/01/apex-legends-keyart.jpg.adapt.crop1x1.767p.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.apex:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.featuredgames button {
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.latestupdates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.moreinfo {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    border-bottom: solid lightgray;
+}
+
+.info {
+    border-left: solid rgb(213, 213, 213);
+    border-right: solid rgb(213, 213, 213);
+    padding: 0px 15px;
+    border-collapse: collapse;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.info:hover {
+    border-bottom: solid red;
+    background-color: rgb(236, 236, 236);
+}
+
+.cardholders {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.topcard,
+.bottomcard {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 90%;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    transition: .5s;
+
+    column-gap: 10px;
+}
+
+.tfirst {
+    background-image: url(https://media.contentapi.ea.com/content/dam/news/www-ea/common/ea-ppa-blog-thumbnail-xl.png.adapt.crop16x9.431p.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.text {
+
+    height: 250px;
+    width: 300px;
+}
+
+.inc {
+    color: red;
+}
+
+.tfirst h1 {
+    font-size: 25px;
+}
+
+.tsecond {
+    background-image: url(https://media.contentapi.ea.com/content/dam/news/www-ea/common/ea-com-ambient-orange.png.adapt.crop16x9.431p.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.tsecond h1 {
+    font-size: 25px;
+}
+
+.tthird {
+    background-image: url(https://media.contentapi.ea.com/content/dam/news/www-ea/common/ripple-effect-inspire-week-gathering-sept-2023-thumbnail.jpg.adapt.crop16x9.431p.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.tthird h1 {
+    font-size: 25px;
+}
+
+.bfirst {
+    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/common/criterion-logo-2018-dark-16-9.png.adapt.crop16x9.431p.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.bfirst h1 {
+    font-size: 25px;
+}
+
+.bsecond {
+    background-image: url(https://media.contentapi.ea.com/content/dam/news/www-ea/images/2023/09/ea-2023-impact-report-featured-image-16x9-thumbnail.jpg.adapt.crop16x9.431p.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.bsecond h1 {
+    font-size: 25px;
+}
+
+.bthird {
+    background-image: url(https://media.contentapi.ea.com/content/dam/news/www-ea/common/ppa-2023-blog-thumbnail.png.adapt.crop16x9.431p.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.bthird h1 {
+    font-size: 25px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px 10px gainsboro;
+    box-shadow: transparent;
+}
+
+.mainend {
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rmore {
+    padding: 14px 28px;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+
+.pictureholder {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop5x2.1455w.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.textholder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 200px;
+    padding: 40px;
+    color: white;
+}
+
+.textholder p {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.join {
+    background-color: rgb(3, 3, 85);
+    padding: 14px 28px;
+    color: white;
+    border: solid white;
+    cursor: pointer;
+}
+
+.join:hover {
+    transform: scale(1.1);
+}
+
+.parentplayer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(48, 166, 234);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parentplayer h1 {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.lmore {
+    padding: 14px 28px;
+    background-color: rgb(48, 166, 234);
+    border: solid black;
+    border-radius: 2px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.lmore:hover {
+    transform: scale(1.1);
+}
+
+.topfooter {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(226, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.eaterms {
+    border-bottom: 1px solid;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    column-gap: 10px;
+    font-size: 15px;
+
+}
+
+.eaterms a {
+    text-decoration: none;
+    color: red;
+}
+
+.socialsandmore {
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: rgb(226, 224, 224);
+}
+
+.leftsidesocials {
+    column-gap: 20px;
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftsidesocials a {
+    text-decoration: none;
+    color: black;
+}
+
+.righrsidesocials p {
+    font-size: 18px;
+}
+
+.righrsidesocials a {
+    transition: .5s;
+    font-size: 25px;
+    color: black;
+}
+
+.righrsidesocials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.aholder {
+    display: flex;
+    column-gap: 25px;
+
+}
+
+.tw:hover {
+    transform: scale(1.3);
+}
+
+.yt:hover {
+    transform: scale(1.3);
+}
+
+.tch:hover {
+    transform: scale(1.3);
+}
+
+.ig:hover {
+    transform: scale(1.3);
+}
+
+.li:hover {
+    transform: scale(1.3);
+}
+
+.fb:hover {
+    transform: scale(1.3);
+}
+
+.exec:hover,
+.impact:hover,
+.comit:hover,
+.partner:hover {
+    color: red;
+
+}
+
+.careers:hover {
+    color: red;
+}
+
+.bottomfooter {
+    width: 100%;
+    height: 260px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftDiv {
+    width: 5%;
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.rightDiv {
+    width: 70%;
+    height: 250px;
+
+
+}
+
+.topendfooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+}
+
+.rightSide {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 50px;
+    align-items: center;
+}
+
+.language {
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid rgb(213, 213, 213);
+    width: 180px;
+    height: 40px;
+}
+
+.language:hover {
+    transform: scale(1.1);
+}
+
+.bottomleft span {
+    padding: 20px;
+}
+
+.bottomendfooter {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
